@@ -9,7 +9,7 @@
 var logger = require('simlog'),
     help   = require('simhelp'),
     pkg    = require('../package'),
-    input  = process.argv.slice(1),
+    input  = process.argv.slice(2),
     isH    = process.argv.indexOf('-h') !== -1 || process.argv.indexOf('--help') !== -1,
     isV    = process.argv.indexOf('-v') !== -1 || process.argv.indexOf('--version') !== -1;
 
