@@ -1,4 +1,4 @@
-# Go MDN
+# Go MDN [![NPM version](https://badge.fury.io/js/gomdn.svg)](http://badge.fury.io/js/gomdn) [![GitHub version](https://badge.fury.io/gh/vitorbritto%2Fgomdn.svg)](http://badge.fury.io/gh/vitorbritto%2Fgomdn)
 
 **DON'T USE W3Schools.** Use the MDN for research and references. Seriously!
 
