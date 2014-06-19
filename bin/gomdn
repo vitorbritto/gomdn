@@ -1,0 +1,54 @@
+#!/usr/bin/env node
+
+'use strict';
+
+// =====================================================
+// CONFIGURATION
+// =====================================================
+
+var logger = require('simlog'),
+    help   = require('simhelp'),
+    pkg    = require('../package'),
+    input  = process.argv.slice(1),
+    isH    = process.argv.indexOf('-h') !== -1 || process.argv.indexOf('--help') !== -1,
+    isV    = process.argv.indexOf('-v') !== -1 || process.argv.indexOf('--version') !== -1;
+
+
+// =====================================================
+// PROGRAM INFORMATION
+// =====================================================
+
+var pnm   = pkg.name,
+    ver   = pkg.version,
+    desc  = pkg.description,
+    aut   = pkg.author.name,
+    lic   = pkg.license,
+    cmd   = '<term> <filter> <skill>';
+
+
+// =====================================================
+// CLI
+// =====================================================
+
+if (isH) {
+    help
+        .main(pnm, ver, desc, cmd)
+        .head('Options:')
+        .option('h', 'help', 'output help message')
+        .option('v', 'version', 'output the version number')
+        .details(aut, lic);
+
+    process.exit(1);
+}
+
+if (isV) {
+    console.log('Go MDN: %s', ver);
+    process.exit(1);
+}
+
+if (input.length > 0) {
+    logger.info('Openning browser... please wait.');
+    module.exports = require('../lib');
+} else {
+    logger.error('You need to specify a term at least.');
+}

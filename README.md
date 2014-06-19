@@ -1,4 +1,64 @@
-gomdn
-=====
+# Go MDN
 
-Don't use W3Schools. Use MDN to search or reference. Seriously!
+**DON'T USE W3Schools.** Use the MDN for research and references. Seriously!
+
+## Install
+
+```bash
+$ npm install gomdn -g
+```
+
+## Usage
+
+```bash
+$ gomdn <term> <filter> <skill>
+```
+
+**Note:** `filter` and `skill` are optional.
+
+### Available Filters
+
+You can be more specific with these filters:
+
+- js
+- css
+- html
+- apps
+- api
+- addons
+- canvas
+- docs
+- firefox
+- firefox-os
+- games
+- mathml
+- mobile
+- svg
+- webdev
+- webgl
+- xul
+
+### Available Skills
+
+You can search content by skill:
+
+- 1 => beginner
+- 2 => intermediate
+- 3 => advanced
+
+
+## Example
+
+```bash
+$ gomdn closure js
+```
+
+
+## Contribute
+
+Feel free to [contribute](https://github.com/vitorbritto/gomdn/pulls) with this project or leave a [suggestion](https://github.com/vitorbritto/gomdn/issues).
+
+
+## License
+
+[MIT License](http://vitorbritto.mit-license.org/) © Vitor Britto

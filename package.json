@@ -1,0 +1,40 @@
+{
+  "name": "gomdn",
+  "version": "0.1.0",
+  "description": "DON'T USE W3Schools. Use the MDN for research and references. Seriously!",
+  "main": "index.js",
+  "bin": "bin/gomdn",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://vitorbritto@github.com/vitorbritto/gomdn.git"
+  },
+  "author": "Vitor Britto <code@vitorbritto.com.br> (http://vitorbritto.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitorbritto/gomdn/issues"
+  },
+  "homepage": "https://github.com/vitorbritto/gomdn",
+  "keywords": [
+    "mdn",
+    "mozilla",
+    "documentation",
+    "research",
+    "references"
+  ],
+  "dependencies": {
+    "simlog": "^0.1.5",
+    "simhelp": "^0.1.4",
+    "open": "0.0.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-mocha": "^0.4.1",
+    "gulp-jshint": "^1.5.5",
+    "jshint-stylish": "^0.2.0",
+    "mocha": "^1.18.2",
+    "chai": "~1.9.1"
+  }
+}
