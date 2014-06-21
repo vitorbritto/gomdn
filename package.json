@@ -3,7 +3,10 @@
   "version": "0.1.1",
   "description": "DON'T USE W3Schools. Use the MDN for research and references. Seriously!",
   "main": "index.js",
-  "bin": "bin/gomdn",
+  "bin": {
+    "gomdn": "bin/gomdn",
+    "mdn": "bin/gomdn"
+  },
   "scripts": {
     "test": "gulp test"
   },
