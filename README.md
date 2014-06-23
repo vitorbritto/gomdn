@@ -8,10 +8,12 @@
 $ npm install gomdn -g
 ```
 
+This will make `godmn` and the shorter `mdn` alias available on the command line.
+
 ## Usage
 
 ```bash
-$ gomdn <term> <filter> <skill>
+$ mdn <term> <filter> <skill>
 ```
 
 **Note:** `filter` and `skill` are optional.
@@ -50,7 +52,7 @@ You can search content by skill:
 ## Example
 
 ```bash
-$ gomdn closure js
+$ mdn closure js
 ```
 
 
