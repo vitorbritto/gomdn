@@ -13,7 +13,7 @@ This will make `godmn` and the shorter `mdn` alias available on the command line
 ## Usage
 
 ```bash
-$ mdn <term> <filter> <skill>
+$ gomdn <term> <filter> <skill>
 ```
 
 **Note:** `filter` and `skill` are optional.
@@ -52,7 +52,7 @@ You can search content by skill:
 ## Example
 
 ```bash
-$ mdn closure js
+$ gomdn closure js
 ```
 
 
