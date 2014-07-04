@@ -8,6 +8,8 @@
 $ npm install gomdn -g
 ```
 
+This will make `godmn` and the shorter `mdn` alias available on the command line.
+
 ## Usage
 
 ```bash
