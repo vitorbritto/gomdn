@@ -28,16 +28,16 @@
     "references"
   ],
   "dependencies": {
-    "simlog": "^0.1.5",
-    "simhelp": "^0.1.4",
-    "open": "0.0.5"
+    "commander": "^2.2.0",
+    "open": "0.0.5",
+    "simlog": "^0.1.5"
   },
   "devDependencies": {
+    "chai": "~1.9.1",
     "gulp": "^3.6.2",
-    "gulp-mocha": "^0.4.1",
     "gulp-jshint": "^1.5.5",
+    "gulp-mocha": "^0.4.1",
     "jshint-stylish": "^0.2.0",
-    "mocha": "^1.18.2",
-    "chai": "~1.9.1"
+    "mocha": "^1.18.2"
   }
 }
