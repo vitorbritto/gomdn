@@ -28,7 +28,6 @@ if (input.length > 0) {
         skill: cmd.skill,
         type: cmd.type
     };
-
     logger.info('Openning browser... please wait.');
     gomdn.search(opts);
 } else {

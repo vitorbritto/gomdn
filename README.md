@@ -39,6 +39,7 @@ You can be more specific with these filters:
 - xul
 
 ### Available Options
+
 #### -s or --skill
 
 You can search content by skill:

@@ -1,6 +1,6 @@
 {
   "name": "gomdn",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "DON'T USE W3Schools. Use the MDN for research and references. Seriously!",
   "main": "index.js",
   "bin": {
